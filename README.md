@@ -1,6 +1,6 @@
 # 🛡️ PhishGuard – Phishing & Risky-Site Detector
 
-[![CI](https://github.com/Monica-Web88/phishguard/actions/workflows/ci.yml/badge.svg)](https://github.com/<your-username>/phishguard/actions/workflows/ci.yml)
+[![CI](https://github.com/Monica-Web88/phishguard/actions/workflows/ci.yml/badge.svg)](https://github.com/Monica-Web88/phishguard/actions/workflows/ci.yml)
 ![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?logo=googlechrome&logoColor=white)
 ![React](https://img.shields.io/badge/UI-React%2019-61DAFB?logo=react&logoColor=black)
 ![License](https://img.shields.io/badge/license-MIT-green)
@@ -9,15 +9,15 @@ PhishGuard is a Chrome extension (Manifest V3, React + JavaScript) that inspects
 phishing red flags **entirely on your device**, shows a 0–100 risk score on the toolbar badge, and puts a
 full-page warning in front of dangerous sites.
 
-### Warning screen 
- ![warning](docs/screenshots/warning-overlay.png) 
-
  ### Popup – Dangerous
  ![popup](docs/screenshots/popup-dangerous.png) 
 
  ### Popup - Safe
  ![safe](docs/screenshots/popup-safe.png) 
 
+ ### Warning screen 
+ ![warning](docs/screenshots/warning-overlay.png) 
+ 
  ### Chrome Extension
  ![safe](docs/screenshots/phishGuard_ChromeExtension.png) 
 
