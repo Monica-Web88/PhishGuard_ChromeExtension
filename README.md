@@ -9,9 +9,9 @@ PhishGuard is a Chrome extension (Manifest V3, React + JavaScript) that inspects
 phishing red flags **entirely on your device**, shows a 0–100 risk score on the toolbar badge, and puts a
 full-page warning in front of dangerous sites.
 
-| Warning screen | Popup – dangerous | Popup – safe |
-|---|---|---|
-| ![warning](docs/screenshots/warning-overlay.png) | ![popup](docs/screenshots/popup-dangerous.png) | ![safe](docs/screenshots/popup-safe.png) |
+| Warning screen | Popup – dangerous | Popup – safe | Chrome Extension |
+|---|---|---|---|
+| ![warning](docs/screenshots/warning-overlay.png) | ![popup](docs/screenshots/popup-dangerous.png) | ![safe](docs/screenshots/popup-safe.png) | ![safe](docs/screenshots/phishGuard_ChromeExtension.png) |
 
 ## What it detects
 
@@ -125,20 +125,6 @@ e2e/                 Playwright end-to-end test + fixture pages
 build.mjs            esbuild bundler (IIFE bundles for MV3)
 ```
 
-## Publishing
-
-- **GitHub:** push the repo; CI runs on every commit. Tag a release (`git tag v1.0.0 && git push --tags`) and the
-  `release.yml` workflow attaches an installable `phishguard-extension.zip` to the GitHub Release.
-- **Chrome Web Store:** run `npm run zip` and upload `phishguard-extension.zip` in the developer dashboard.
-
-## Limitations & roadmap
-
-- Heuristic detection only – there is no reputation feed, so a brand-new phishing kit with a clean-looking domain and
-  HTTPS form can score low. Treat PhishGuard as an extra layer, not a replacement for a managed secure-browsing product.
-- The brand list is a small built-in set; the registrable-domain logic uses a compact heuristic instead of the full
-  Public Suffix List.
-- Ideas: Safe Browsing / threat-intel lookup (opt-in), screenshot-based logo matching, per-site policy export,
-  localisation, TypeScript migration.
 
 ## License
 
