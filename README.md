@@ -6,7 +6,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green)
 
 PhishGuard is a Chrome extension (Manifest V3, React + JavaScript) that inspects every page you visit for
-phishing red flags **entirely on your device**, shows a 0–100 risk score on the toolbar badge, and puts a
+phishing red flags **entirely on local device**, shows a 0–100 risk score on the toolbar badge, and puts a
 full-page warning in front of dangerous sites.
 
  ### Popup – Dangerous
