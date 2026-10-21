@@ -1,0 +1,24 @@
+{
+  "name": "phishguard",
+  "version": "1.0.0",
+  "description": "PhishGuard – a Manifest V3 Chrome extension (React + JavaScript) that detects phishing and risky websites in real time.",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --watch",
+    "test": "node --test tests/*.test.js",
+    "test:e2e": "npm run build && node e2e/e2e.mjs",
+    "zip": "npm run build && cd dist && zip -r ../phishguard-extension.zip . -x '*.DS_Store'"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2",
+    "playwright": "^1.56.0"
+  }
+}
