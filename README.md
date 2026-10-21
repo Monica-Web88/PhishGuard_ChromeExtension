@@ -1,6 +1,6 @@
 # 🛡️ PhishGuard – Phishing & Risky-Site Detector
 
-[![CI](https://github.com/Monica-Web88/phishguard/actions/workflows/ci.yml/badge.svg)](https://github.com/Monica-Web88/phishguard/actions/workflows/ci.yml)
+[![CI](https://github.com/Monica-Web88/PhishGuard_ChromeExtension/actions/workflows/ci.yml/badge.svg)](https://github.com/Monica-Web88/PhishGuard_ChromeExtension/actions/workflows/ci.yml)
 ![Manifest V3](https://img.shields.io/badge/Chrome-Manifest%20V3-4285F4?logo=googlechrome&logoColor=white)
 ![React](https://img.shields.io/badge/UI-React%2019-61DAFB?logo=react&logoColor=black)
 ![License](https://img.shields.io/badge/license-MIT-green)
