@@ -9,9 +9,17 @@ PhishGuard is a Chrome extension (Manifest V3, React + JavaScript) that inspects
 phishing red flags **entirely on your device**, shows a 0–100 risk score on the toolbar badge, and puts a
 full-page warning in front of dangerous sites.
 
-| Warning screen | Popup – dangerous | Popup – safe | Chrome Extension |
-|---|---|---|---|
-| ![warning](docs/screenshots/warning-overlay.png) | ![popup](docs/screenshots/popup-dangerous.png) | ![safe](docs/screenshots/popup-safe.png) | ![safe](docs/screenshots/phishGuard_ChromeExtension.png) |
+### Warning screen 
+ ![warning](docs/screenshots/warning-overlay.png) 
+
+ ### Popup – Dangerous
+ ![popup](docs/screenshots/popup-dangerous.png) 
+
+ ### Popup - Safe
+ ![safe](docs/screenshots/popup-safe.png) 
+
+ ### Chrome Extension
+ ![safe](docs/screenshots/phishGuard_ChromeExtension.png) 
 
 ## What it detects
 
